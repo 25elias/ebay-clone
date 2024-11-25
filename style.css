@@ -124,8 +124,8 @@ section {
 
 .card-content {
     position: relative;
-    width: 200px;
-    height: 100%;
+    width: 100%;
+    height: auto;
     padding: 8px 0;
     border-radius: 14px;
 }
@@ -137,9 +137,9 @@ section {
 }
 
 .img-item {
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
+    width: 220px;
+    height: 220px;
+    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -185,8 +185,8 @@ section {
 
 .full-circle {
     background-color: #f3eaea;
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     margin-bottom: 10px;
 }
@@ -276,3 +276,41 @@ section {
     color: gray;
     text-decoration: 2px solid gray line-through;
 }
+
+
+/* BOTTOM BANNERS */
+
+.banner-bottom_container {
+    position: relative;
+    height: 325px;
+    margin: 8px 0;
+    padding: 24px 0;
+    background-color: #f7f7f7;
+
+}
+.banner-bottom_item {
+    display: flex;
+    align-items: center;
+    width: 92%;
+    height: 100%;
+    margin: auto;
+    padding: 10px 0;
+}
+.banner-bottom_item .banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 45%;
+
+}
+
+*btn-cta .btn-cta_banner {
+    background-color: #fff;
+    color: #111;
+}
+
+.banner-bottom_item .banner-link {
+    width: 55%;
+    height: 100%;
+}
+
