@@ -4,29 +4,130 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/fontawesome.min.css"
-      integrity="sha512-lauN4D/0AgFUGvmMR+knQnbOADyD/XuQ8VF18I8Ll0+TLvsujshyxvU+uzogmQbSq6qJd5jnUdYtK8ShxXMlSg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
     <title>Ebay Components</title>
   </head>
   <body>
     <!-- HEADER -->
-    <header></header>
+    <header class="header">
+      <div class="top-bar container">
+        <div class="top-bar_left">
+          <ul>
+            <li class="text-small"><a href="">Hi! <span class="sml-link">Sign in</span> or <span class="sml-link">register</span></a></li>
+            <li class="text-small"><a href="">Daily Deals</a></li>
+            <li class="text-small"><a href="">Brand Outlet</a></li>
+            <li class="text-small"><a href="">Gift Cards</a></li>
+            <li class="text-small"><a href=""></a>Help &amp; Contact</li>
+          </ul>
+        </div>
+        <div class="top-bar_deal">
+          <p class="text-small">Give big with 15% off. <br /> Ends 11/24</p>
+          <span><i></i></span>
+        </div>
+        <div class="tob-bar_right">
+          <ul>
+            <li class="text-small"><a href="">Sell</a></li>
+            <li class="text-small"><a href="">Watchlist <span><i></i></span></a></li>
+            <li class="text-small"><a href="">My ebay <span><i></i></span></a></li>
+            <li class="text-small"><a href=""><i></i></a></li>
+            <li class="text-small"><a href=""><i></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-bar_top container">
+        <div class="nav-top_left">
+          <div class="nav-logo">
+            <img src="" alt="">
+          </div>
+          <div class="nav-catagory">
+            <a href="" class="text-small">Shop by <br /> category</a>
+            <i></i>
+          </div>
+        </div>
+
+        <div class="nav-top_fill">
+          <div class="search-left">
+            <i></i>
+          </div>
+          <div class="search-fill">
+            <input type="text" placeholder="Search for anything">
+          </div>
+          <div class="search-right">
+            <a href="">All categories</a>
+            <i></i>
+          </div>
+        </div>
+
+        <div class="nav-top_right">
+          <button class="search-btn">
+            Search
+          </button>
+          <a href="">Advanced</a>
+        </div>
+      </div>
+      
+      <div class="nav-bar_bottom container">
+          <div class="nav-bottom_items">
+            <ul>
+              <li class="text-small"><a href="">Explore(New!)</a></li>
+              <li class="text-small"><a href="">Saved</a></li>
+              <li class="text-small"><a href="">Motors</a></li>
+              <li class="text-small"><a href="">Electronics</a></li>
+              <li class="text-small"><a href="">Saved</a></li>
+              <li class="text-small"><a href="">Motors</a></li>
+              <li class="text-small"><a href="">Electronics</a></li>
+              <li class="text-small"><a href="">Saved</a></li>
+              <li class="text-small"><a href="">Motors</a></li>
+              <li class="text-small"><a href="">Electronics</a></li>
+              <li class="text-small"><a href="">Saved</a></li>
+              <li class="text-small"><a href=""></a>Jewelery &amp; Watchess</li>
+              <li class="text-small"><a href="">Motors</a></li>
+              <li class="text-small"><a href="">More</a> <span><i></i></span></li>
+            </ul>
+          </div>
+      </div>
+
+      </div>
+
+    </header>
 
     <main>
       <!-- BANNER SECTION -->
-      <div class="banner">
-        <a href="/">
-          <h2 class="title-bold">Endless accessories. Epic prices.</h2>
-        </a>
-        <p class="text-normal">Browse millions of upgrades for your ride.</p>
-        <button class="btn-cta">Shop now</button>
-      </div>
+      <section class="banner">
+        <div class="banner-slider_items">
+
+          <div class="banner-slide_item-1">
+            <div class="banner-text">
+              <h2 class="title-bold">Endless accessories. Epic prices.</h2>
+              <p class="text-normal">Browse millions of upgrades for your ride.</p>
+              <button class="btn-cta btn-banner_1">Shop now</button>
+            </div>
+            <div class="banner-img">
+              <img src="https://i.ebayimg.com/images/g/5WQAAOSw2~9nJA8e/s-l960.webp" alt="">
+            </div>
+          </div>
+
+          <div class="banner-btn">
+
+            <div class="small-circle_container">
+              <span class="small-circle"></span>
+              <span class="small-circle"></span>
+              <span class="small-circle"></span>
+              <span class="small-circle"></span>
+            </div>
+
+            <div class="btn-wrapper">
+              <button class="slider-left">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button class="slider-right">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+            
+          </div>
+
+        </div>
+      </section>
 
       <!-- TRENDING SECTION -->
       <section class="trending-container">
@@ -34,7 +135,7 @@
         <div class="trend_container container">
           <h2 class="title-bold">Trending in Sneakers</h2>
           <div class="card-container">
-            <a href="/" class="card-content">
+            <a href="" class="card-content">
               <div class="img-container">
                 <div class="img-item">
                   <img
@@ -50,7 +151,7 @@
               <span class="text-bold">$510.00</span>
             </a>
 
-            <a href="/" class="card-content">
+            <a href="" class="card-content">
               <div class="img-container">
                 <div class="img-item">
                   <img
@@ -66,7 +167,7 @@
               <span class="text-bold">$510.00</span>
             </a>
 
-            <a href="/" class="card-content">
+            <a href="" class="card-content">
               <div class="img-container">
                 <div class="img-item">
                   <img
@@ -81,7 +182,7 @@
               </p>
               <span class="text-bold">$510.00</span>
             </a>
-            <a href="/" class="card-content">
+            <a href="" class="card-content">
               <div class="img-container">
                 <div class="img-item">
                   <img
@@ -96,7 +197,7 @@
               </p>
               <span class="text-bold">$510.00</span>
             </a>
-            <a href="/" class="card-content">
+            <a href="" class="card-content">
               <div class="img-container">
                 <div class="img-item">
                   <img
@@ -111,7 +212,7 @@
               </p>
               <span class="text-bold">$510.00</span>
             </a>
-            <a href="/" class="card-content">
+            <a href="" class="card-content">
               <div class="img-container">
                 <div class="img-item">
                   <img
@@ -126,7 +227,7 @@
               </p>
               <span class="text-bold">$510.00</span>
             </a>
-            <a href="/" class="card-content">
+            <a href="" class="card-content">
               <div class="img-container">
                 <div class="img-item">
                   <img
@@ -141,41 +242,13 @@
               </p>
               <span class="text-bold">$510.00</span>
             </a>
-            <a href="/" class="card-content">
+            <a href="" class="card-content">
               <div class="img-container">
                 <div class="img-item">
                   <img
                     src="https://i.ebayimg.com/images/g/qmIAAOSw7dllsxpT/s-l500.webp"
                     alt=""
                   />
-                </div>
-                <i class="img-cart fa-regular fa-heart"></i>
-              </div>
-              <p class="text-normal">
-                Size 9 - Travis Scott x Air Jordan 1 OG SP Low Mediu...
-              </p>
-              <span class="text-bold">$510.00</span>
-            </a>
-          </div>
-          <div class="slider-left">
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
-          <div class="slider-right">
-            <i class="fa-solid fa-chevron-right"></i>
-          </div>
-        </div>
-
-        <!-- TRENDING NOW -->
-        <div class="trend_container container">
-          <div class="title-container">
-            <h2 class="title-bold">Trending in Watches</h2>
-            <a href="/" class="link-bold">Feedback on our suggestions</a>
-          </div>
-          <div class="card-container">
-            <a href="/" class="card-content">
-              <div class="img-container">
-                <div class="img-item">
-                  <img src="./img/fidget-spinner.png" alt="" />
                 </div>
                 <i class="img-cart fa-regular fa-heart"></i>
               </div>
@@ -186,10 +259,38 @@
             </a>
           </div>
           <button class="slider-left">
-            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-angle-left"></i>
           </button>
           <button class="slider-right">
-            <i class="fa-solid fa-chevron-right"></i>
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+
+        <!-- TRENDING IN WATCHES -->
+        <div class="trend_container container">
+          <div class="title-container">
+            <h2 class="title-bold">Trending in Watches</h2>
+            <a href="" class="link-bold">Feedback on our suggestions</a>
+          </div>
+          <div class="card-container">
+            <a href="" class="card-content">
+              <div class="img-container">
+                <div class="img-item">
+                  <img src="https://i.ebayimg.com/images/g/klwAAOSwZA1nRN5i/s-l500.webp" alt="" />
+                </div>
+                <i class="img-cart fa-regular fa-heart"></i>
+              </div>
+              <p class="text-normal">
+                VINTAGE PATEK PHILIPPE LES GRECQUES 3776/1 WRISTWATCH...
+              </p>
+              <span class="text-bold">$510.00</span>
+            </a>
+          </div>
+          <button class="slider-left">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="slider-right">
+            <i class="fa-solid fa-angle-right"></i>
           </button>
         </div>
 
@@ -197,10 +298,10 @@
         <div class="trend_container container">
           <div class="title-container">
             <h2 class="title-bold">Score these trending kicks</h2>
-            <a href="/" class="link-bold">See all</a>
+            <a href="" class="link-bold">See all</a>
           </div>
           <div class="card-container">
-            <a href="/" class="card-content score-kick">
+            <a href="" class="card-content score-kick">
               <div class="img-item full-circle">
                 <img
                   src="https://i.ebayimg.com/images/g/g-wAAOSwhytm~H28/s-l500.webp"
@@ -209,7 +310,7 @@
               </div>
               <p class="text-normal">Size 9 - Travis Scott x Air...</p>
             </a>
-            <a href="/" class="card-content score-kick">
+            <a href="" class="card-content score-kick">
               <div class="img-item full-circle">
                 <img
                   src="https://i.ebayimg.com/images/g/g-wAAOSwhytm~H28/s-l500.webp"
@@ -219,7 +320,7 @@
               <p class="text-normal">Size 9 - Travis Scott x Air...</p>
             </a>
 
-            <a href="/" class="card-content score-kick">
+            <a href="" class="card-content score-kick">
               <div class="img-item full-circle">
                 <img
                   src="https://i.ebayimg.com/00/s/Mjg4WDI4OA==/z/awQAAOSwPpRnM8C~/$_1.JPG"
@@ -229,7 +330,7 @@
               <p class="text-normal">Size 9 - Travis Scott x Air...</p>
             </a>
 
-            <a href="/" class="card-content score-kick">
+            <a href="" class="card-content score-kick">
               <div class="img-item full-circle">
                 <img
                   src="https://i.ebayimg.com/00/s/Mjg4WDI4OA==/z/awQAAOSwPpRnM8C~/$_1.JPG"
@@ -239,7 +340,7 @@
               <p class="text-normal">Size 9 - Travis Scott x Air...</p>
             </a>
 
-            <a href="/" class="card-content score-kick">
+            <a href="" class="card-content score-kick">
               <div class="img-item full-circle">
                 <img
                   src="https://i.ebayimg.com/images/g/eaMAAOSwrMdnIBpY/s-l500.webp"
@@ -249,7 +350,7 @@
               <p class="text-normal">Size 9 - Travis Scott x Air...</p>
             </a>
 
-            <a href="/" class="card-content score-kick">
+            <a href="" class="card-content score-kick">
               <div class="img-item full-circle">
                 <img
                   src="https://i.ebayimg.com/00/s/Mjg4WDI4OA==/z/5EUAAOSwFodnM8EO/$_1.JPG"
@@ -259,7 +360,7 @@
               <p class="text-normal">Size 9 - Travis Scott x Air...</p>
             </a>
 
-            <a href="/" class="card-content score-kick">
+            <a href="" class="card-content score-kick">
               <div class="img-item full-circle">
                 <img
                   src="https://i.ebayimg.com/images/g/~hYAAOSwMAtnIBpY/s-l500.webp"
@@ -278,11 +379,11 @@
               <h2 class="title-bold">eBay Live</h2>
               <span>Tuned in and shop curated experiences</span>
             </div>
-            <a href="/" class="link-bold">See all</a>
+            <a href="" class="link-bold">See all</a>
           </div>
 
           <div class="card-container">
-            <a href="/" class="card-content live-card">
+            <a href="" class="card-content live-card">
               <div class="img-container">
                 <div class="img-item live-img">
                   <img src="https://i.ebayimg.com/images/g/YsIAAOSwsnxnQgXD/s-w300.jpg" alt="" />
@@ -304,7 +405,7 @@
                 AnZ Trading Cards Rip N Ship Hosted by Matise
               </p>
             </a>
-            <a href="/" class="card-content live-card">
+            <a href="" class="card-content live-card">
               <div class="img-container">
                 <div class="img-item live-img">
                   <img src="https://i.ebayimg.com/images/g/OfYAAOSwn7VnPQMf/s-w300.jpg" alt="" />
@@ -326,7 +427,7 @@
                 AnZ Trading Cards Rip N Ship Hosted by Matise
               </p>
             </a>
-            <a href="/" class="card-content live-card">
+            <a href="" class="card-content live-card">
               <div class="img-container">
                 <div class="img-item live-img">
                   <img src="https://i.ebayimg.com/images/g/fF0AAOSwMlxnQPF9/s-w300.jpg" alt="" />
@@ -348,7 +449,7 @@
                 AnZ Trading Cards Rip N Ship Hosted by Matise
               </p>
             </a>
-            <a href="/" class="card-content live-card">
+            <a href="" class="card-content live-card">
               <div class="img-container">
                 <div class="img-item live-img">
                   <img src="https://i.ebayimg.com/images/g/KrwAAOSwWdFnQPHQ/s-w300.jpg" alt="" />
@@ -370,7 +471,7 @@
                 AnZ Trading Cards Rip N Ship Hosted by Matise
               </p>
             </a>
-            <a href="/" class="card-content live-card">
+            <a href="" class="card-content live-card">
               <div class="img-container">
                 <div class="img-item live-img">
                   <img src="https://i.ebayimg.com/images/g/0coAAOSw8rZnKN6y/s-w300.jpg" alt="" />
@@ -392,7 +493,7 @@
                 AnZ Trading Cards Rip N Ship Hosted by Matise
               </p>
             </a>
-            <a href="/" class="card-content live-card">
+            <a href="" class="card-content live-card">
               <div class="img-container">
                 <div class="img-item live-img">
                   <img src="https://i.ebayimg.com/images/g/yDUAAOSwfIRnQ7S6/s-w300.jpg" alt="" />
@@ -417,17 +518,17 @@
           </div>
 
           <button class="slider-left">
-            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-angle-left"></i>
           </button>
           <button class="slider-right">
-            <i class="fa-solid fa-chevron-right"></i>
+            <i class="fa-solid fa-angle-right"></i>
           </button>
         </div>
 
         <!-- FALL PRICES -->
         <div class="trend_container container">
           <div class="card-container">
-            <a href="/" class="card-content fall-content">
+            <a href="" class="card-content fall-content">
               <div class="img-container">
                 <div class="img-item fall-off_img">
                   <img src="./img/backpackMan.png" alt="" />
@@ -443,7 +544,7 @@
               </div>
             </a>
 
-            <a href="/" class="card-content fall-content">
+            <a href="" class="card-content fall-content">
               <div class="img-container">
                 <div class="img-item fall-off_img">
                   <img src="./img/backpackMan.png" alt="" />
@@ -458,7 +559,7 @@
               </div>
             </a>
 
-            <a href="/" class="card-content fall-content">
+            <a href="" class="card-content fall-content">
               <div class="img-container">
                 <div class="img-item fall-off_img">
                   <img src="./img/backpackMan.png" alt="" />
@@ -475,10 +576,10 @@
             </a>
           </div>
           <button class="slider-left">
-            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-angle-left"></i>
           </button>
           <button class="slider-right">
-            <i class="fa-solid fa-chevron-right"></i>
+            <i class="fa-solid fa-angle-right"></i>
           </button>
         </div>
 
@@ -489,9 +590,9 @@
             <div class="banner-text">
               <h3 class="title-bold">The 'Black Cement' 3s are back</h3>
               <p class="text-normal">A fresh retro that stays true to the OG specs.</p>
-              <button class="btn-cta_banner">Shop now</button>
+              <button class="btn-cta btn-banner_2">Shop now</button>
             </div>
-            <a href="/" class="banner-link">
+            <a href="" class="banner-link">
               <img src="https://i.ebayimg.com/images/g/5WQAAOSw2~9nJA8e/s-l960.webp" alt="">
             </a>
           </div>
@@ -499,5 +600,8 @@
         </div>
       </section>
     </main>
+
+  <!-- FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/b33e34e646.js" crossorigin="anonymous"></script>
   </body>
 </html>
